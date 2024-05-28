@@ -1,0 +1,401 @@
+/*HEADER*/
+body{
+    background-color: #F9FAFF;
+}
+
+.MainHead{
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+ /*   background-image: url(/assets/images/flower.png);
+    background-position: 720px;
+    background-size: 720px 629px;
+    background-repeat: no-repeat;
+*/
+}
+
+#ImgFlower{
+    width: 720px;
+    max-width: 720px;
+    height: 629px;
+    left: 50%;
+    position: absolute;
+}
+
+.header{
+    width: 1440px;
+    height: 56px;
+    position: relative;
+    display: flex;
+}
+
+
+
+.Name{
+    width: 130px;
+    height: 32px;
+    margin-top: 12px;
+    margin-left: 120px;
+    font-family: "Comfortaa";
+    font-weight: 700;
+    font-size: 18px;
+    position: absolute;
+}
+
+.NavBar{
+    margin-top: 14px;
+    width: 291px;
+    height: 28px;
+    margin-left: 1029px;
+    display: flex;
+    position: relative;
+}
+
+nav a{
+    text-decoration: none;
+    margin-inline-start: 48px;
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 18px;
+    width: 68px;
+    height: 28px;
+}
+
+
+
+.ImgProfile{
+    width: 50%;
+    height: 629px;
+    left: 50%;
+    position: relative;
+}
+
+/*FOR INFO*/
+
+#Info{
+    width: 486px;
+    height: 408px;
+    margin-top: 110px;
+    margin-left: 120px;
+    position: relative;
+}
+
+#Info h1{
+    font-family: "Playfair Display";
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 76px;
+}
+
+#InfoIU{
+    font-family: "Nunito";
+    font-weight: 700;
+    font-size: 20px;
+    color: #FDC435;
+}
+
+#InfoDetails{
+    font-family: "Nunito";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #828282;
+}
+
+#ButtonProject{
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    width: 115px;
+    height: 43px;
+    background-color: #FDC435;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 24px 8px 24px;
+    cursor: pointer;
+}
+#ButtonProject:hover{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#ButtonLinkedIn{
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    width: 117px;
+    height: 43px;
+    border: 2px solid #25282B;
+    border-radius: 8px;
+    padding: 8px 24px 8px 24px;
+    cursor: pointer;
+}
+#ButtonLinked:hover{
+    font-family: 20px;
+    font-weight: 600;
+}
+
+
+/*FOR PROJECTS*/
+
+#MainProjectDiv{
+    width: 992px;
+    height: 1892px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+#ProjectCenterText{
+    
+    width: 300px;
+    height: 72px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+
+}
+#Project{
+    font-family: "Playfair Display";
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 48px;
+}
+
+#YellowLine{
+    height: 4px;
+    width: 100px;
+    margin-top: 0px;
+    margin: auto;
+    background-color: #FDC435;
+}
+
+.ImgLeft{
+    width: 496px;
+    height: 524px;;
+}
+
+.ImgLeft img{
+    width: 100%;
+    height: 100%;
+}
+
+.ImgRight{
+    width: 496px;
+    height: 524px;
+}
+.ImgRight img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.ProName{
+    font-family: "Playfair Display";
+    font-weight: 700;
+    line-height: 72px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.Projects{
+    display: flex;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-top: 100px;
+    width: 992px;
+    height: 524px;
+    background-color: #ffffff;
+    justify-content: flex-start;
+}
+
+.ProjectsLeft{
+    float: left;
+}
+
+
+.Projects p{
+    font-family: "Nunito";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.ProNameContainer{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 30px;
+    width: 406px;
+    height: 232px;
+    width: 50%;
+}
+
+#ViewPro1{
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500px;
+    border: 1px solid black;
+    border-radius: 24px;
+    line-height: 27px;
+    padding: 8px 24px 8px 24px;  
+    cursor: pointer;
+}
+#ViewPro2{
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500px;
+    border: 1px solid black;
+    border-radius: 24px;
+    line-height: 27px;
+    padding: 8px 24px 8px 24px;
+    cursor: pointer;
+}
+#ViewPro3{
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500px;
+    border: 1px solid black;
+    border-radius: 24px;
+    line-height: 27px;
+    padding: 8px 24px 8px 24px;
+    cursor: pointer;
+}
+
+.Footer{
+    margin-left: auto;
+    margin-right: auto;
+    height: 102px; 
+    width: 192px;
+    position: relative;
+    margin-top: 200px;
+       
+}
+
+#FooterImg{
+    width: 192px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#FooterImg img{
+    height: 48px;
+    width: 48px;
+}
+
+#FooterName{
+    font-family: "Nunito";
+    font-size: 16px;
+    font-weight: 400px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+/*ABOUT PAGE*/
+#MainHeadAbout{
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#MainAboutDiv{
+    width: 1440px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative; 
+}
+
+#AboutMe{
+    font-family: "Playfair Display";
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    width: 588px;
+    height: 323px;
+    margin-top: 99px;
+    margin-left: 120px;
+    position: absolute;
+}
+#AboutMeText{
+    margin-top: 0px;
+    font-family: "Playfair Display";
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+}
+
+#AboutDetails{
+    font-family: "Nunito";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #828282;
+
+}
+
+
+#ButtonResume{
+    width: 114px;
+    height: 43px;
+    background-color: #FDC435;
+    border-radius: 8px;
+    border: none;
+    padding: 8px 24px 8px 24px;
+    cursor: pointer;
+}
+
+#AboutImg{
+    position: relative;
+    width: 524px;
+    height: 524px;
+    margin-top: 94px;
+    margin-left: 796px;
+}
+
+#InstaButton{
+    border: none; 
+    background-color: #F9FAFF;
+    cursor: pointer;
+}
+#LinkedInButton{
+    border: none; 
+    background-color: #F9FAFF;
+    cursor: pointer;
+}
+#EmailButton{
+    border: none; 
+    background-color: #F9FAFF;
+    cursor: pointer;
+}
+
+
+/*FONTS*/
+
+@font-face {
+    font-family: "Comfortaa";
+    src: url(Comfortaa-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url(Raleway-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "Nunito";
+    src: url(Nunito-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "Playfair Display";
+    src: url(PlayfairDisplay-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(Roboto-Regular.ttf);
+}
